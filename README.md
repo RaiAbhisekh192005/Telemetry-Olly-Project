@@ -10,7 +10,7 @@ Telemetry-Olly0-Project is designed to explore and implement modern observabilit
 
 The architecture of the Telemetry-Olly0-Project is illustrated below:
 
-![Architecture Diagram](path/to/your/architecture-diagram.png)
+![Architecture Diagram](https://github.com/user-attachments/assets/78fc1493-a546-4d64-9f68-4f9d1674692c)
 
 _Description_: The diagram provides an overview of the deployment and observability stack, including how AWS, Docker, OpenTelemetry, Grafana, Jaeger, and the Load Generator UI are interconnected to monitor and trace the application.
 

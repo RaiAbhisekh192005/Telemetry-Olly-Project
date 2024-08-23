@@ -30,4 +30,15 @@ _Description_: The diagram provides an overview of the deployment and observabil
 - **Jaeger**: Distributed tracing system for monitoring and troubleshooting.
 - **Load Generator UI**: Tool for generating load to test application performance.
 
-## Setup
+## Prerequisites
+
+- AWS EC2 instance (xlarge)
+- SSH access to the instance
+
+## Step 1: Update and Upgrade the System
+
+First, update and upgrade the system packages:
+
+```bash
+sudo apt update && sudo apt upgrade -y
+

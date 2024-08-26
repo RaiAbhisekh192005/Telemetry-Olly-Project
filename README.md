@@ -71,6 +71,17 @@ Navigate to the directory containing your docker-compose.yml file and start the 
 ```
 sudo docker compose up --force-recreate --remove-orphans --detach
 ```
+
+## Accessing the Services
+Once the containers are up and running, you can access the various services on your EC2 instance using its public IP address.
+
+Replace <your-ec2-public-ip> with the actual public IP address of your EC2 instance:
+
+- Web Store: `http://<your-ec2-public-ip>:8080/`
+- Grafana: `http://<your-ec2-public-ip>:8080/grafana/`
+- Load Generator UI: `http://<your-ec2-public-ip>:8080/loadgen/`
+- Jaeger UI: `http://<your-ec2-public-ip>:8080/jaeger/ui/`
+
 ## Conclusion
 Your OpenTelemetry Demo Application should now be up and running on your AWS EC2 instance. You can monitor the performance and health using Grafana, explore the Jaeger UI for tracing, and use the Load Generator UI for testing.
 

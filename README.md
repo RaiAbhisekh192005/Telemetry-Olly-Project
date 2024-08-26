@@ -34,6 +34,8 @@ _Description_: The diagram provides an overview of the deployment and observabil
 
 - AWS EC2 instance (xlarge)
 - SSH access to the instance
+- Clone the repository
+`git clone https://github.com/open-telemetry/opentelemetry-demo.git`
 
 ## Step 1: Update and Upgrade the System
 
